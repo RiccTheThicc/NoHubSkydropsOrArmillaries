@@ -1,0 +1,1345 @@
+{
+"$type": "UAssetAPI.UAsset, UAssetAPI",
+"Info": "Serialized with UAssetAPI 1.0.2.0 (46c4fbf)",
+"NameMap": ["/Game/ASophia/Maps/MainMapSubmaps/Redwood/RedwoodPuzzles/RedwoodSpawningVolumes","/Game/ASophia/Puzzle/GyroscopicRing/BP_GyroSpawnVolume","/Game/ASophia/Puzzle/Rosary/BP_RosarySpawnVolume","/Script/CoreUObject","/Script/Engine","/Script/IslandsofInsight","/Script/NavigationSystem","/Script/NavigationSystem.NavigationSystemV1","ArrayProperty","AttachParent","bAutoSpawnMissingNavData","BlueprintGeneratedClass","BodyInstance","BookmarkArray","BoolProperty","BoxComponent","BP_GyroSpawnVolume_C","BP_RosarySpawnVolume5","BP_RosarySpawnVolume6","BP_RosarySpawnVolume7","BP_RosarySpawnVolume8","BP_RosarySpawnVolume9","BP_RosarySpawnVolume_C","Class","Default__BP_GyroSpawnVolume_C","Default__BP_RosarySpawnVolume_C","Default__Level","Default__Model","Default__NavigationSystemModuleConfig","Default__SophiaWorldSettings","Default__World","Default__WorldSettings","DefaultSceneRoot_GEN_VARIABLE","FloatProperty","Guid","GyroSpawnVolume2","IntProperty","Level","LevelBuildDataId","MaxAngularVelocity","Model","NavigationSystemClass","NavigationSystemConfig","NavigationSystemModuleConfig","None","numPuzzlesToSpawn","numRosariesToSpawn","ObjectProperty","Package","PersistentLevel","RedwoodSpawningVolumes","RelativeLocation","RelativeRotation","RelativeScale3D","respawnPuzzles","respawnRosaries","RootComponent","rootComponent","Rotator","SceneComponent","SoftClassPath","SophiaWorldSettings","SpawnArea","spawnArea","StructProperty","totalTimeToRespawnPuzzles","totalTimeToRespawnRosaries","Vector","World","WorldSettings"],
+"OtherAssetsFailedToAccess": [],
+"LegacyFileVersion": -7,
+"DataResourceVersion": "Invalid",
+"DataResources": [],
+"UsesEventDrivenLoader": true,
+"WillSerializeNameHashes": true,
+"Imports": [{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"BP_GyroSpawnVolume_C","OuterIndex":-18,"ClassPackage":"/Script/Engine","ClassName":"BlueprintGeneratedClass","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"BP_RosarySpawnVolume_C","OuterIndex":-19,"ClassPackage":"/Script/Engine","ClassName":"BlueprintGeneratedClass","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"SpawnArea","OuterIndex":-5,"ClassPackage":"/Script/Engine","ClassName":"BoxComponent","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"SpawnArea","OuterIndex":-6,"ClassPackage":"/Script/Engine","ClassName":"BoxComponent","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__BP_GyroSpawnVolume_C","OuterIndex":-18,"ClassPackage":"/Game/ASophia/Puzzle/GyroscopicRing/BP_GyroSpawnVolume","ClassName":"BP_GyroSpawnVolume_C","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__BP_RosarySpawnVolume_C","OuterIndex":-19,"ClassPackage":"/Game/ASophia/Puzzle/Rosary/BP_RosarySpawnVolume","ClassName":"BP_RosarySpawnVolume_C","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"BoxComponent","OuterIndex":-20,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Level","OuterIndex":-20,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Model","OuterIndex":-20,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"SceneComponent","OuterIndex":-20,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"World","OuterIndex":-20,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"WorldSettings","OuterIndex":-20,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"SophiaWorldSettings","OuterIndex":-21,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"NavigationSystemModuleConfig","OuterIndex":-22,"ClassPackage":"/Script/CoreUObject","ClassName":"Class","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__Level","OuterIndex":-20,"ClassPackage":"/Script/Engine","ClassName":"Level","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__Model","OuterIndex":-20,"ClassPackage":"/Script/Engine","ClassName":"Model","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__NavigationSystemModuleConfig","OuterIndex":-22,"ClassPackage":"/Script/NavigationSystem","ClassName":"NavigationSystemModuleConfig","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"/Game/ASophia/Puzzle/GyroscopicRing/BP_GyroSpawnVolume","OuterIndex":0,"ClassPackage":"/Script/CoreUObject","ClassName":"Package","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"/Game/ASophia/Puzzle/Rosary/BP_RosarySpawnVolume","OuterIndex":0,"ClassPackage":"/Script/CoreUObject","ClassName":"Package","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"/Script/Engine","OuterIndex":0,"ClassPackage":"/Script/CoreUObject","ClassName":"Package","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"/Script/IslandsofInsight","OuterIndex":0,"ClassPackage":"/Script/CoreUObject","ClassName":"Package","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"/Script/NavigationSystem","OuterIndex":0,"ClassPackage":"/Script/CoreUObject","ClassName":"Package","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"DefaultSceneRoot_GEN_VARIABLE","OuterIndex":-1,"ClassPackage":"/Script/Engine","ClassName":"SceneComponent","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"rootComponent","OuterIndex":-5,"ClassPackage":"/Script/Engine","ClassName":"SceneComponent","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"DefaultSceneRoot_GEN_VARIABLE","OuterIndex":-2,"ClassPackage":"/Script/Engine","ClassName":"SceneComponent","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"rootComponent","OuterIndex":-6,"ClassPackage":"/Script/Engine","ClassName":"SceneComponent","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__SophiaWorldSettings","OuterIndex":-21,"ClassPackage":"/Script/IslandsofInsight","ClassName":"SophiaWorldSettings","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__World","OuterIndex":-20,"ClassPackage":"/Script/Engine","ClassName":"World","PackageName":null,"bImportOptional":false},{"$type":"UAssetAPI.Import, UAssetAPI","ObjectName":"Default__WorldSettings","OuterIndex":-20,"ClassPackage":"/Script/Engine","ClassName":"WorldSettings","PackageName":null,"bImportOptional":false}],
+"DependsMap": [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]],
+"SoftPackageReferenceList": [],
+"AssetRegistryData": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+"BulkData": {"$type":"System.Byte[], System.Private.CoreLib","$value":"wYMqng=="},
+"ValorantGarbageData": null,
+"SeaOfThievesGarbageData": null,
+"Generations": [{"$type":"UAssetAPI.FGenerationInfo, UAssetAPI","ExportCount":25,"NameCount":70}],
+"PackageGuid": "{720D5A4A-4EF7-ED35-5AD7-7FAF52160609}",
+"PersistentGuid": "{00000000-0000-0000-0000-000000000000}",
+"RecordedEngineVersion": {"$type":"UAssetAPI.FEngineVersion, UAssetAPI","Major":0,"Minor":0,"Patch":0,"Changelist":0,"Branch":null},
+"RecordedCompatibleWithEngineVersion": {"$type":"UAssetAPI.FEngineVersion, UAssetAPI","Major":0,"Minor":0,"Patch":0,"Changelist":0,"Branch":null},
+"ChunkIDs": [],
+"PackageSource": 642318301,
+"FolderName": "None",
+"LocalizationId": null,
+"SoftObjectPathsCount": 0,
+"SoftObjectPathsOffset": 0,
+"SearchableNamesOffset": 0,
+"ThumbnailTableOffset": 0,
+"CompressionFlags": 0,
+"AdditionalPackagesToCook": [],
+"NamesReferencedFromExportDataCount": 70,
+"PayloadTocOffset": -1,
+"DataResourceOffset": -1,
+"doWeHaveDependsMap": true,
+"doWeHaveSoftPackageReferences": false,
+"doWeHaveAssetRegistryData": true,
+"doWeHaveWorldTileInfo": false,
+"doWeHaveDataResources": false,
+"CustomSerializationFlags": "None",
+"UseSeparateBulkDataFiles": true,
+"IsUnversioned": true,
+"FileVersionLicenseeUE": 0,
+"ObjectVersion": "VER_UE4_ADDED_PACKAGE_OWNER",
+"ObjectVersionUE5": "UNKNOWN",
+"CustomVersionContainer": [{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{375EC13C-06E4-48FB-B500-84F0262A717E}","FriendlyName":"FCoreObjectVersion","Version":4,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{E4B068ED-F494-42E9-A231-DA0B2E46BB41}","FriendlyName":"FEditorObjectVersion","Version":38,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{CFFC743F-43B0-4480-9391-14DF171D2073}","FriendlyName":"FFrameworkObjectVersion","Version":37,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{7B5AE74C-D270-4C10-A958-57980B212A5A}","FriendlyName":"FSequencerObjectVersion","Version":12,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{29E575DD-E0A3-4627-9D10-D276232CDCEA}","FriendlyName":"FAnimPhysObjectVersion","Version":17,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{601D1886-AC64-4F84-AA16-D3DE0DEAC7D6}","FriendlyName":"FFortniteMainBranchObjectVersion","Version":31,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC}","FriendlyName":"FNiagaraObjectVersion","Version":1,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{717F9EE7-E9B0-493A-88B3-91321B388107}","FriendlyName":"FAssetRegistryVersion","Version":17,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{9C54D522-A826-4FBE-9421-074661B482D0}","FriendlyName":"FReleaseObjectVersion","Version":30,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{E7086368-6B23-4C58-8439-1B7016265E91}","FriendlyName":"FFortniteReleaseBranchCustomObjectVersion","Version":0,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{D89B5E42-24BD-4D46-8412-ACA8DF641779}","FriendlyName":"FUE5ReleaseStreamObjectVersion","Version":0,"IsSerialized":false},{"$type":"UAssetAPI.CustomVersion, UAssetAPI","Name":null,"Key":"{FCF57AFA-5076-4283-B9A9-E658FFA02D32}","FriendlyName":"FNiagaraCustomVersion","Version":61,"IsSerialized":false}],
+"GatherableTextData": null,
+"SearchableNames": null,
+"Thumbnails": null,
+"WorldTileInfo": null,
+"PackageFlags": "PKG_ContainsMap, PKG_FilterEditorOnly",
+"HasUnversionedProperties": false,
+"IsFilterEditorOnly": true,
+"Exports": [
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SpawnArea",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 127,
+	"SerialOffset": 6213,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [17,-6,-2],
+	"SerializationBeforeCreateDependencies": [-7,-4],
+	"CreateBeforeCreateDependencies": [8],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 8,
+	"ClassIndex": -7,
+	"SuperIndex": 0,
+	"TemplateIndex": -4,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "BodyInstance",
+			"SerializeNone": true,
+			"Name": "BodyInstance",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"MaxAngularVelocity", "Value":3599.999755859375 }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"AttachParent", "Value":17 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SpawnArea",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 127,
+	"SerialOffset": 6340,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [18,-6,-2],
+	"SerializationBeforeCreateDependencies": [-7,-4],
+	"CreateBeforeCreateDependencies": [9],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 9,
+	"ClassIndex": -7,
+	"SuperIndex": 0,
+	"TemplateIndex": -4,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "BodyInstance",
+			"SerializeNone": true,
+			"Name": "BodyInstance",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"MaxAngularVelocity", "Value":3599.999755859375 }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"AttachParent", "Value":18 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SpawnArea",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 127,
+	"SerialOffset": 6467,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [19,-6,-2],
+	"SerializationBeforeCreateDependencies": [-7,-4],
+	"CreateBeforeCreateDependencies": [10],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 10,
+	"ClassIndex": -7,
+	"SuperIndex": 0,
+	"TemplateIndex": -4,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "BodyInstance",
+			"SerializeNone": true,
+			"Name": "BodyInstance",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"MaxAngularVelocity", "Value":3599.999755859375 }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"AttachParent", "Value":19 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SpawnArea",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 127,
+	"SerialOffset": 6594,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [20,-6,-2],
+	"SerializationBeforeCreateDependencies": [-7,-4],
+	"CreateBeforeCreateDependencies": [11],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 11,
+	"ClassIndex": -7,
+	"SuperIndex": 0,
+	"TemplateIndex": -4,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "BodyInstance",
+			"SerializeNone": true,
+			"Name": "BodyInstance",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"MaxAngularVelocity", "Value":3599.999755859375 }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"AttachParent", "Value":20 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SpawnArea",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 127,
+	"SerialOffset": 6721,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [21,-6,-2],
+	"SerializationBeforeCreateDependencies": [-7,-4],
+	"CreateBeforeCreateDependencies": [12],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 12,
+	"ClassIndex": -7,
+	"SuperIndex": 0,
+	"TemplateIndex": -4,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "BodyInstance",
+			"SerializeNone": true,
+			"Name": "BodyInstance",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"MaxAngularVelocity", "Value":3599.999755859375 }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"AttachParent", "Value":21 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SpawnArea",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 127,
+	"SerialOffset": 6848,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [22,-5,-1],
+	"SerializationBeforeCreateDependencies": [-7,-3],
+	"CreateBeforeCreateDependencies": [7],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 7,
+	"ClassIndex": -7,
+	"SuperIndex": 0,
+	"TemplateIndex": -3,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "BodyInstance",
+			"SerializeNone": true,
+			"Name": "BodyInstance",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"MaxAngularVelocity", "Value":3599.999755859375 }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"AttachParent", "Value":22 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "GyroSpawnVolume2",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 154,
+	"SerialOffset": 6975,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [6,22],
+	"SerializationBeforeCreateDependencies": [-1,-5,-24,-3],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -1,
+	"SuperIndex": 0,
+	"TemplateIndex": -5,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numPuzzlesToSpawn", "Value":28 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnPuzzles", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"totalTimeToRespawnPuzzles", "Value":100 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":6 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":22 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "BP_RosarySpawnVolume5",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 154,
+	"SerialOffset": 7129,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [1,17],
+	"SerializationBeforeCreateDependencies": [-2,-6,-26,-4],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -2,
+	"SuperIndex": 0,
+	"TemplateIndex": -6,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":16 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"totalTimeToRespawnRosaries", "Value":570 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":17 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "BP_RosarySpawnVolume6",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 154,
+	"SerialOffset": 7283,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [2,18],
+	"SerializationBeforeCreateDependencies": [-2,-6,-26,-4],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -2,
+	"SuperIndex": 0,
+	"TemplateIndex": -6,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":12 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"totalTimeToRespawnRosaries", "Value":570 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":2 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":18 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "BP_RosarySpawnVolume7",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 154,
+	"SerialOffset": 7437,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [3,19],
+	"SerializationBeforeCreateDependencies": [-2,-6,-26,-4],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -2,
+	"SuperIndex": 0,
+	"TemplateIndex": -6,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":12 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"totalTimeToRespawnRosaries", "Value":570 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":3 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":19 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "BP_RosarySpawnVolume8",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 154,
+	"SerialOffset": 7591,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [4,20],
+	"SerializationBeforeCreateDependencies": [-2,-6,-26,-4],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -2,
+	"SuperIndex": 0,
+	"TemplateIndex": -6,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":12 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"totalTimeToRespawnRosaries", "Value":570 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":4 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":20 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "BP_RosarySpawnVolume9",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 154,
+	"SerialOffset": 7745,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [5,21],
+	"SerializationBeforeCreateDependencies": [-2,-6,-26,-4],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -2,
+	"SuperIndex": 0,
+	"TemplateIndex": -6,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":8 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.FloatPropertyData, UAssetAPI", "Name":"totalTimeToRespawnRosaries", "Value":570 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":5 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":21 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.LevelExport, UAssetAPI",
+	"Owner": null,
+	"Actors": [23,0,8,9,10,11,12,7,25],
+	"URL": {"$type":"UAssetAPI.ExportTypes.FURL, UAssetAPI","Protocol":"unreal","Host":null,"Port":7777,"Valid":1,"Map":"/Game/ASophia/Maps/PersistentLevel","Op":[],"Portal":null},
+	"Model": 14,
+	"ModelComponents": [],
+	"LevelScriptActor": 0,
+	"NavListStart": 0,
+	"NavListEnd": 0,
+	"ObjectName": "PersistentLevel",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 338,
+	"SerialOffset": 7899,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [14,23,8,9,10,11,12,7,25],
+	"SerializationBeforeCreateDependencies": [-8,-15],
+	"CreateBeforeCreateDependencies": [24],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="},
+	"OuterIndex": 24,
+	"ClassIndex": -8,
+	"SuperIndex": 0,
+	"TemplateIndex": -15,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"Model", "Value":14 },
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Guid",
+			"SerializeNone": true,
+			"Name": "LevelBuildDataId",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Structs.GuidPropertyData, UAssetAPI", "Name":"LevelBuildDataId", "Value":"{1E688FCC-447A-0C1A-6920-6D9D6822D990}" }
+			]
+		},
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"WorldSettings", "Value":23 }
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "Model_0",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 118,
+	"SerialOffset": 8237,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [],
+	"SerializationBeforeCreateDependencies": [-9,-16],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAADAAAAAAAAABAAAAAAAAAAAAAAAAYAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAAntNwbt6hYkuTS/6Weag1ogAAAAA="},
+	"OuterIndex": 13,
+	"ClassIndex": -9,
+	"SuperIndex": 0,
+	"TemplateIndex": -16,
+	"Data": []
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "NavigationSystemModuleConfig_0",
+	"ObjectFlags": "RF_NoFlags",
+	"SerialSize": 99,
+	"SerialOffset": 8355,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [],
+	"SerializationBeforeCreateDependencies": [-14,-17],
+	"CreateBeforeCreateDependencies": [23],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 23,
+	"ClassIndex": -14,
+	"SuperIndex": 0,
+	"TemplateIndex": -17,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"bAutoSpawnMissingNavData", "Value":1 },
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "SoftClassPath",
+			"SerializeNone": true,
+			"Name": "NavigationSystemClass",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.SoftClassPathPropertyData, UAssetAPI",
+					"Path": null,
+					"Name": "NavigationSystemClass",
+					"Value": {
+						"$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+						"AssetPath": {
+							"$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+							"PackageName": null,
+							"AssetName": "/Script/NavigationSystem.NavigationSystemV1"
+						},
+						"SubPathString": null
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "NavigationSystemModuleConfig_0",
+	"ObjectFlags": "RF_NoFlags",
+	"SerialSize": 99,
+	"SerialOffset": 8454,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [],
+	"SerializationBeforeCreateDependencies": [-14,-17],
+	"CreateBeforeCreateDependencies": [25],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 25,
+	"ClassIndex": -14,
+	"SuperIndex": 0,
+	"TemplateIndex": -17,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"bAutoSpawnMissingNavData", "Value":1 },
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "SoftClassPath",
+			"SerializeNone": true,
+			"Name": "NavigationSystemClass",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.SoftClassPathPropertyData, UAssetAPI",
+					"Path": null,
+					"Name": "NavigationSystemClass",
+					"Value": {
+						"$type": "UAssetAPI.PropertyTypes.Objects.FSoftObjectPath, UAssetAPI",
+						"AssetPath": {
+							"$type": "UAssetAPI.PropertyTypes.Objects.FTopLevelAssetPath, UAssetAPI",
+							"PackageName": null,
+							"AssetName": "/Script/NavigationSystem.NavigationSystemV1"
+						},
+						"SubPathString": null
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "rootComponent",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 195,
+	"SerialOffset": 8553,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [-6,-2],
+	"SerializationBeforeCreateDependencies": [-10,-26],
+	"CreateBeforeCreateDependencies": [8],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 8,
+	"ClassIndex": -10,
+	"SuperIndex": 0,
+	"TemplateIndex": -26,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeLocation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeLocation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": -54240.36328125,
+						"Y": 38195.3359375,
+						"Z": 30160.685546875
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Rotator",
+			"SerializeNone": true,
+			"Name": "RelativeRotation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+					"Name": "RelativeRotation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+						"Pitch": "+0",
+						"Yaw": -61.85386276245117,
+						"Roll": "+0"
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeScale3D",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeScale3D",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": 127.25,
+						"Y": 166.25,
+						"Z": 1
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "rootComponent",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 195,
+	"SerialOffset": 8748,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [-6,-2],
+	"SerializationBeforeCreateDependencies": [-10,-26],
+	"CreateBeforeCreateDependencies": [9],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 9,
+	"ClassIndex": -10,
+	"SuperIndex": 0,
+	"TemplateIndex": -26,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeLocation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeLocation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": -63472.58984375,
+						"Y": 64371.85546875,
+						"Z": 30160.6953125
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Rotator",
+			"SerializeNone": true,
+			"Name": "RelativeRotation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+					"Name": "RelativeRotation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+						"Pitch": "+0",
+						"Yaw": -61.85386276245117,
+						"Roll": "+0"
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeScale3D",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeScale3D",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": 147,
+						"Y": 160.75,
+						"Z": 1
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "rootComponent",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 195,
+	"SerialOffset": 8943,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [-6,-2],
+	"SerializationBeforeCreateDependencies": [-10,-26],
+	"CreateBeforeCreateDependencies": [10],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 10,
+	"ClassIndex": -10,
+	"SuperIndex": 0,
+	"TemplateIndex": -26,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeLocation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeLocation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": -80222.7109375,
+						"Y": 29115.353515625,
+						"Z": 30160.724609375
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Rotator",
+			"SerializeNone": true,
+			"Name": "RelativeRotation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+					"Name": "RelativeRotation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+						"Pitch": "+0",
+						"Yaw": 9.99057674407959,
+						"Roll": "+0"
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeScale3D",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeScale3D",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": 146.75,
+						"Y": 114,
+						"Z": 1
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "rootComponent",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 195,
+	"SerialOffset": 9138,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [-6,-2],
+	"SerializationBeforeCreateDependencies": [-10,-26],
+	"CreateBeforeCreateDependencies": [11],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 11,
+	"ClassIndex": -10,
+	"SuperIndex": 0,
+	"TemplateIndex": -26,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeLocation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeLocation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": -90424.328125,
+						"Y": 47665.59765625,
+						"Z": 30160.685546875
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Rotator",
+			"SerializeNone": true,
+			"Name": "RelativeRotation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+					"Name": "RelativeRotation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+						"Pitch": "+0",
+						"Yaw": -61.85386276245117,
+						"Roll": "+0"
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeScale3D",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeScale3D",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": 132.5,
+						"Y": 156.25,
+						"Z": 1
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "rootComponent",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 195,
+	"SerialOffset": 9333,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [-6,-2],
+	"SerializationBeforeCreateDependencies": [-10,-26],
+	"CreateBeforeCreateDependencies": [12],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 12,
+	"ClassIndex": -10,
+	"SuperIndex": 0,
+	"TemplateIndex": -26,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeLocation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeLocation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": -75601.703125,
+						"Y": 58218.5390625,
+						"Z": 14105.802734375
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Rotator",
+			"SerializeNone": true,
+			"Name": "RelativeRotation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+					"Name": "RelativeRotation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+						"Pitch": "+0",
+						"Yaw": -61.85386276245117,
+						"Roll": "+0"
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeScale3D",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeScale3D",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": 70,
+						"Y": 70,
+						"Z": 1
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "rootComponent",
+	"ObjectFlags": "RF_Transactional, RF_DefaultSubObject",
+	"SerialSize": 195,
+	"SerialOffset": 9528,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [-5,-1],
+	"SerializationBeforeCreateDependencies": [-10,-24],
+	"CreateBeforeCreateDependencies": [7],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 7,
+	"ClassIndex": -10,
+	"SuperIndex": 0,
+	"TemplateIndex": -24,
+	"Data": [
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeLocation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeLocation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": -72630.2734375,
+						"Y": 46147.59375,
+						"Z": 21476.572265625
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Rotator",
+			"SerializeNone": true,
+			"Name": "RelativeRotation",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.RotatorPropertyData, UAssetAPI",
+					"Name": "RelativeRotation",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FRotator, UAssetAPI",
+						"Pitch": "+0",
+						"Yaw": 23.569374084472656,
+						"Roll": "+0"
+					}
+				}
+			]
+		},
+		{
+			"$type": "UAssetAPI.PropertyTypes.Structs.StructPropertyData, UAssetAPI",
+			"StructType": "Vector",
+			"SerializeNone": true,
+			"Name": "RelativeScale3D",
+			"Value": [
+				{
+					"$type": "UAssetAPI.PropertyTypes.Structs.VectorPropertyData, UAssetAPI",
+					"Name": "RelativeScale3D",
+					"Value": {
+						"$type": "UAssetAPI.UnrealTypes.FVector, UAssetAPI",
+						"X": 1100,
+						"Y": 950,
+						"Z": 700
+					}
+				}
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "SophiaWorldSettings",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 118,
+	"SerialOffset": 9723,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [15],
+	"SerializationBeforeCreateDependencies": [-13,-27],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -13,
+	"SuperIndex": 0,
+	"TemplateIndex": -27,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"NavigationSystemConfig", "Value":15 },
+		{
+			"$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+			"ArrayType": "ObjectProperty",
+			"Name": "BookmarkArray",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 }
+			]
+		}
+	]
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "RedwoodSpawningVolumes",
+	"ObjectFlags": "RF_Public, RF_Standalone, RF_Transactional",
+	"SerialSize": 24,
+	"SerialOffset": 9841,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": true,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [13],
+	"SerializationBeforeCreateDependencies": [-11,-28],
+	"CreateBeforeCreateDependencies": [],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA0AAAAAAAAAAAAAAA=="},
+	"OuterIndex": 0,
+	"ClassIndex": -11,
+	"SuperIndex": 0,
+	"TemplateIndex": -28,
+	"Data": []
+},
+{
+	"$type": "UAssetAPI.ExportTypes.NormalExport, UAssetAPI",
+	"ObjectName": "WorldSettings_0",
+	"ObjectFlags": "RF_Transactional",
+	"SerialSize": 118,
+	"SerialOffset": 9865,
+	"ScriptSerializationStartOffset": 0,
+	"ScriptSerializationEndOffset": 0,
+	"bForcedExport": false,
+	"bNotForClient": false,
+	"bNotForServer": false,
+	"PackageGuid": "{00000000-0000-0000-0000-000000000000}",
+	"IsInheritedInstance": false,
+	"PackageFlags": "PKG_None",
+	"bNotAlwaysLoadedForEditorGame": true,
+	"bIsAsset": false,
+	"GeneratePublicHash": false,
+	"SerializationBeforeSerializationDependencies": [],
+	"CreateBeforeSerializationDependencies": [16],
+	"SerializationBeforeCreateDependencies": [-12,-29],
+	"CreateBeforeCreateDependencies": [13],
+	"PublicExportHash": 0,
+	"Padding": null,
+	"Extras": {"$type":"System.Byte[], System.Private.CoreLib","$value":"AAAAAA=="},
+	"OuterIndex": 13,
+	"ClassIndex": -12,
+	"SuperIndex": 0,
+	"TemplateIndex": -29,
+	"Data": [
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"NavigationSystemConfig", "Value":16 },
+		{
+			"$type": "UAssetAPI.PropertyTypes.Objects.ArrayPropertyData, UAssetAPI",
+			"ArrayType": "ObjectProperty",
+			"Name": "BookmarkArray",
+			"Value": [
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 },
+				{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Value":0 }
+			]
+		}
+	]
+}
+]
+}
