@@ -164,8 +164,8 @@
 	"SuperIndex": 0,
 	"TemplateIndex": -5,
 	"Data": [
-		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numPuzzlesToSpawn", "Value":25 },
-		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnPuzzles", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numPuzzlesToSpawn", "Value":0 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnPuzzles", "Value":0 },
 		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":2 },
 		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":10 }
 	]
@@ -199,8 +199,8 @@
 	"SuperIndex": 0,
 	"TemplateIndex": -6,
 	"Data": [
-		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":55 },
-		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":1 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.IntPropertyData, UAssetAPI", "Name":"numRosariesToSpawn", "Value":0 },
+		{ "$type":"UAssetAPI.PropertyTypes.Objects.BoolPropertyData, UAssetAPI", "Name":"respawnRosaries", "Value":0 },
 		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"spawnArea", "Value":1 },
 		{ "$type":"UAssetAPI.PropertyTypes.Objects.ObjectPropertyData, UAssetAPI", "Name":"RootComponent", "Value":9 }
 	]
